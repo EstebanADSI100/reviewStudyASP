@@ -1,0 +1,40 @@
+﻿@model List<reviewStudyASP.Models.film>
+@{
+    ViewBag.Title = "Films";
+}
+
+<br />
+
+<h2>@ViewBag.Title</h2>
+
+<br />
+
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Fecha de Inico</th>
+            <th>Nombre de la Película</th>
+            <th>Duración</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var aparience = "danger";
+
+            if (item.stateInBillboard == true)
+            {
+                aparience = "success";
+            }
+            <tr class="@aparience">
+                <td>@item.idFilm.ToString()</td>
+                <td>@item.dateStart.ToString("yyyy/MM/dd HH:mm:ss")</td>
+                <td>@item.nameFilm.ToString()</td>
+                <td>@item.duration.ToString()</td>
+            </tr>
+        }
+
+    </tbody>
+</table>

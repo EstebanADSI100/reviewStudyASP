@@ -1,0 +1,26 @@
+﻿@model List<reviewStudyASP.Models.programas>
+
+@{
+    ViewBag.Title = "listarProgramas";
+}
+
+<br />
+<br />
+
+<h2>Programas</h2>
+
+<br />
+<br />
+
+<div class="dropdown">
+    <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">
+        --Select Program--
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        @foreach (var item in Model)
+        {
+            <li><a href="#">@item.nombre.ToString()</a></li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,60 @@
+﻿@model List<reviewStudyASP.Models.factura>
+@{
+    ViewBag.Title = "Facturación";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+<div class="navbar navbar-nav">
+    <div class="container">
+        <br />
+        <br />
+        <h2>@ViewBag.Title</h2>
+        <br />
+        <br />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Cantidad</th>
+                    <th>Valor</th>
+                    <th>Subtotal</th>
+                    <th>Iva</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.id</td>
+                        <td>@item.cantidad.ToString()</td>
+                        <td>@item.valor.ToString("0,00.")</td>
+                        <td>@item.subtotal.ToString("0,00.")</td>
+                        <td><strong>IVA 19% </strong> @item.iva.ToString("0,00.")</td>
+                        <td>@item.total.ToString("0,00.")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="container body-content">
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss") - Esta table está por un Html.RenderAction("NameAction", "NameControllers")</p>
+            </footer>
+        </div>
+    </div>
+</div>  
+
+</body>
+</html>
+

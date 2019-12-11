@@ -1,0 +1,21 @@
+﻿@model reviewStudyASP.Models.Cliente
+
+<br />
+<br />
+<div class="container navbar navbar-nav">
+    <div>
+        @Html.LabelFor(model => model.nombre):
+        @Html.DisplayFor(model => model.nombre)
+    </div>
+    @{
+        var classState = (!Model.estadoUsuario ? "background-color: #E4A1A1" : "background-color: #C1E4A1");
+    }
+    <div style="@classState">
+        @Html.LabelFor(model => model.estadoUsuario):
+        @Html.DisplayFor(model => model.estadoUsuario)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.fechaInicio):
+        @Html.DisplayFor(model => model.fechaInicio)
+    </div>
+</div>

@@ -1,0 +1,26 @@
+﻿@model List<reviewStudyASP.Models.empresa>
+@{
+    ViewBag.Title = "listarEmpresas";
+}
+
+<br />
+<br />
+
+<h2>Check Box de Empresas</h2>
+
+<br />
+
+<div class="dropdown">
+    <button class="btn btn-danger dropdown-toggle" type="button" data-toggle="dropdown">
+        Seleccione Empresa
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        @foreach (var item in Model)
+        {
+            <li><a href="#">@item.nameEmpresa.ToString()</a></li>
+        }
+
+    </ul>
+</div>
+

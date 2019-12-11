@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Review APS.net MVC", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Content", "testContent", "Content")</li>
+                    <li>@Html.ActionLink("Json", "Json", "Json")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="dropdown nav navbar-nav">
+        <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">
+            -- Select One Method Redirect--
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">@Html.ActionLink("Redirect", "redirect", "Redirect")</a></li>
+            <li><a href="#">@Html.ActionLink("Redirect To Action", "redirecToAction", "RedirectToAction")</a></li>
+            <li><a href="#">@Html.ActionLink("Redirect To Route", "redirectToRoute", "RedirectToRoute")</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown nav navbar-nav">
+        <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">
+            -- Select One Method--
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">@Html.ActionLink("Http Status Code Result", "HttpStatusCode", "HttpStatusCode")</a></li>
+            <li><a href="#">@Html.ActionLink("Download File", "fileResult", "FileDownload")</a></li>
+            <li><a href="#">@Html.ActionLink("Query String desde el Action", "queryString", "QueryString")</a></li>
+            <li><a href="#">@Html.ActionLink("HttpGet and  HttpPost", "testHttpGetAndPost", "HttpGetAndHttpPost")</a></li>
+            <li><a href="#">@Html.ActionLink("ViewBag", "testViewBag", "ViewBag")</a></li>
+            <li><a href="#">@Html.ActionLink("ViewData", "testViewData", "ViewData")</a></li>
+            <li><a href="#">@Html.ActionLink("Create a View", "testViewProducto", "View")</a></li>
+            <li><a href="#">@Html.ActionLink("Table Venta", "listarVenta", "Venta")</a></li>
+            <li><a href="#">@Html.ActionLink("Table Una Sola Venta", "listarUnaVenta", "Venta")</a></li>
+            <li><a href="#">@Html.ActionLink("Rol", "ListarRol", "Rol")</a></li>
+            <li><a href="#">@Html.ActionLink("Check Box Family", "objectFamily", "Family")</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown nav navbar-nav">
+        <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">
+            -- Select One Method--
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">@Html.ActionLink("Select of Company", "listarEmpresas", "Empresa")</a></li>
+            <li><a href="#">@Html.ActionLink("Select Programs", "listarProgramas", "Programas")</a></li>
+            <li><a href="#">@Html.ActionLink("Select Login User", "listarUser", "exampleMethodsGetAndPost")</a></li>
+            <li><a href="#">@Html.ActionLink("Películas Activas e Inactivas en cartelera", "readFilms", "film")</a></li>
+            <li><a href="#">@Html.ActionLink("Codigo en Rezor", "listarUsuarios", "codidoDentrodeRezor")</a></li>
+            <li><a href="#">@Html.ActionLink("Metodo Display Importante", "ReadPerson", "Display")</a></li>
+        </ul>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

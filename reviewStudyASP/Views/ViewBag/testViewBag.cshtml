@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "testViewBag";
+}
+
+<h2>testViewBag</h2>
+<br />
+<br />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Fecha de Nacimiento</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@ViewBag.Name</td>
+            <td>@ViewBag.Age</td>
+            <td>@ViewBag.FechaNacimiento.ToString("dd/MM/yyyy")</td>
+        </tr>
+    </tbody>
+</table>
+

@@ -1,0 +1,39 @@
+﻿@model reviewStudyASP.Models.venta
+
+@{
+    ViewBag.Title = "listarUnaVenta";
+}
+
+<h1 class="h1Personalization">Listar una Venta</h1>
+<br />
+<br />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Fecha Venta</th>
+            <th>Nit</th>
+            <th>Nombre Establecimiento</th>
+            <th>Tipo Usuario</th>
+            <th>Nombre Completo</th>
+            <th>Subtotal</th>
+            <th>Iva</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+
+    <tbody>
+            <tr>
+                <td>@Model.fechaVenta.ToString("yyyy/MM/dd")</td>
+                <td>@Model.nit.ToString()</td>
+                <td>@Model.nombreEstablecimiento.ToString()</td>
+                <td>@Model.tipoUsuario.ToString()</td>
+                <td>@Model.nombreCompleto.ToString()</td>
+                <td>$ @Model.subtotal.ToString("0,0.")</td>
+                <td>$ @Model.iva.ToString("0,0.")</td>
+                <td>$ @Model.total.ToString("0,0.")</td>
+            </tr>
+    </tbody>
+</table>
+
+

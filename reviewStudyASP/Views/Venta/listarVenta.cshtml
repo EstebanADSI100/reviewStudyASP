@@ -1,0 +1,39 @@
+﻿@model List<reviewStudyASP.Models.venta>
+@{
+    ViewBag.Title = "listarVenta";
+}
+
+<h1 class="h1Personalization">Listar Ventas</h1>
+<br />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Fecha Venta</th>
+            <th>Nit</th>
+            <th>Nombre Establecimiento</th>
+            <th>Tipo Usuario</th>
+            <th>Nombre Completo</th>
+            <th>Subtotal</th>
+            <th>Iva</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.fechaVenta.ToString("yyyy/MM/dd")</td>
+            <td>@item.nit.ToString()</td>
+            <td>@item.nombreEstablecimiento.ToString()</td>
+            <td>@item.tipoUsuario.ToString()</td>
+            <td>@item.nombreCompleto.ToString()</td>
+            <td>$ @item.subtotal.ToString("0,0.")</td>
+            <td>$ @item.iva.ToString("0,0.")</td>
+            <td>$ @item.total.ToString("0,0.")</td>
+        </tr>
+        }
+    </tbody>
+</table>

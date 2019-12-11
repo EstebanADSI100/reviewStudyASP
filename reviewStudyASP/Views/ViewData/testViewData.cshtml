@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "testViewData";
+}
+
+<h2>testViewData</h2>
+<br />
+<br />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>FirstName</th>
+            <th>Age</th>
+            <th>Date of Birth</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@ViewData["Name"]</td>
+            <td>@ViewData["Age"]</td>
+            <td>@ViewData["fechaNacimiento"]</td>
+        </tr>
+    </tbody>
+</table>
+
+            

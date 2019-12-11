@@ -1,0 +1,18 @@
+﻿@model reviewStudyASP.Models.family
+@{
+    ViewBag.Title = "objectFamily";
+}
+
+<h2>objectFamily</h2>
+
+<div class="dropdown nav navbar-nav">
+    <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">
+        -- Select my family--
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#">@Model.nameMother.ToString()</a></li>
+        <li><a href="#">@Model.nameBrotherHigher.ToString()</a></li>
+        <li><a href="#">@Model.nameBrotherMedium.ToString()</a></li>
+    </ul>
+</div>

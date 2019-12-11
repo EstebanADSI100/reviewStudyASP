@@ -1,0 +1,43 @@
+﻿@model List<reviewStudyASP.Models.users>
+@{
+    ViewBag.Title = "Usuarios";
+}
+
+<br />
+<h2>@ViewBag.Title</h2>
+
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Fecha de Nacimeinto</th>
+            <th>Primer Nombre</th>
+            <th>Segundo Nombre</th>
+            <th>Primer Apellido</th>
+            <th>Segundo Apellido</th>
+            <th>Edad</th>
+            <th>Teléfono</th>
+            <th>Dirección</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var aparence = (!item.state) ? "danger" : string.Empty;
+            
+            <tr class="@aparence">
+                <td>@item.idUser.ToString()</td>
+                <td>@item.dateBirth.ToString("yyyy/MM/dd")</td>
+                <td>@item.firstName.ToString()</td>
+                <td>@item.secondName.ToString()</td>
+                <td>@item.firstLast.ToString()</td>
+                <td>@item.secondLast.ToString()</td>
+                <td>@item.age.ToString()</td>
+                <td>@item.phone.ToString()</td>
+                <td>@item.direction.ToString()</td>
+            </tr>
+
+        }
+    </tbody>
+</table>

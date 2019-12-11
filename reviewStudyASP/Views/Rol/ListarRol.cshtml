@@ -1,0 +1,26 @@
+﻿@model List<reviewStudyASP.Models.rol>
+
+@{
+    ViewBag.Title = "ListarRol";
+}
+
+<h2>ListarRol</h2>
+
+<br />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name Rol</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.nameRol.ToString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

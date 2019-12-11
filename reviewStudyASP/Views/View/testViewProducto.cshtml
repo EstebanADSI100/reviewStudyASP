@@ -1,0 +1,33 @@
+﻿@model List<reviewStudyASP.Models.producto>
+
+@{
+    ViewBag.Title = "testViewProducto";
+}
+
+<h2 class="h1Personalization">Test View Producto</h2>
+<br />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>firstName</th>
+            <th>firstLastName</th>
+            <th>dateOfBirth</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var productos in Model)
+        {
+        <tr>
+            <td>@productos.firstName</td>
+            <td>@productos.firstLastName</td>
+            <td typeof="hidden">@productos.dateOfBirth.ToString("dd/MM/yyyy")</td>
+        </tr>
+
+        }
+
+    </tbody>
+
+</table>
+
+
