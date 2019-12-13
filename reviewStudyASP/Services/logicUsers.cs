@@ -33,8 +33,8 @@ namespace reviewStudyASP.Services
                 firstLast = "Díaz",
                 secondLast = "Gallego",
                 age = 54,
-                phone = "3134314281",
-                direction = "Calle 2 # 93D-30"
+                phone = "1212121234",
+                direction = "Ciudad Bonita"
             };
 
             var user2 = new users()
@@ -45,8 +45,8 @@ namespace reviewStudyASP.Services
                 firstLast = "Valiente",
                 secondLast = "Díaz",
                 age = 30,
-                phone = "3128789872",
-                direction = "Calle 2 # 93D-30"
+                phone = "1112121212",
+                direction = "Cidudad perdida"
             };
 
             var user3 = new users()
@@ -57,8 +57,8 @@ namespace reviewStudyASP.Services
                 firstLast = "Valiente",
                 secondLast = "Díaz",
                 age = 28,
-                phone = "3115912335",
-                direction = "Americas Crr 53"
+                phone = "111111121",
+                direction = "Postobon"
             };
 
             var user4 = new users()

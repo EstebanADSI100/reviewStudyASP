@@ -1,0 +1,32 @@
+﻿@model List<reviewStudyASP.Models.userPrueba>
+
+@{
+    ViewBag.Title = "mostrarUsuario";
+}
+
+<br />
+<br />
+
+<h2>@ViewBag.Title</h2>
+
+<br />
+<br />
+
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre de Usuario</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var classState = (item.state ? "success" : "danger");
+            <tr class="@classState">
+                <td>@item.idUserPrueba</td>
+                <td>@item.name</td>
+            </tr>
+        }
+    </tbody>
+</table>

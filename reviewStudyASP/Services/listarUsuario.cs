@@ -19,8 +19,8 @@ namespace reviewStudyASP.Services
                 firstLast = "Díaz",
                 secondLast = "Gallego",
                 age = 54,
-                phone = "3134314281",
-                direction = "Calle 2 # 93D-30",
+                phone = "1234567890",
+                direction = "Ciudad Perdida",
                 state = true
 
             };
@@ -34,8 +34,8 @@ namespace reviewStudyASP.Services
                 firstLast = "Valiente",
                 secondLast = "Díaz",
                 age = 30,
-                phone = "31287190182",
-                direction = "Calle 2 # 93D-30",
+                phone = "0987654321",
+                direction = "Pueblo viejo",
                 state = false
 
             };
@@ -49,8 +49,8 @@ namespace reviewStudyASP.Services
                 firstLast = "Valiente",
                 secondLast = "Díaz",
                 age = 29,
-                phone = "3115912534",
-                direction = "Americas Crr 53d",
+                phone = "6758987654",
+                direction = "Casa Blanca",
                 state = false
 
             };
@@ -64,7 +64,7 @@ namespace reviewStudyASP.Services
                 firstLast = "Valiente",
                 secondLast = "Díaz",
                 age = 25,
-                phone = "3193067008",
+                phone = "0909098787",
                 direction = "Pueblo Nuevo calle principal",
                 state = true
 

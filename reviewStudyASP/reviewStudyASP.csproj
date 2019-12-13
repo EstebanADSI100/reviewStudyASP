@@ -140,6 +140,7 @@
     <Compile Include="Controllers\RedirectToActionController.cs" />
     <Compile Include="Controllers\RedirectToRouteController.cs" />
     <Compile Include="Controllers\RolController.cs" />
+    <Compile Include="Controllers\userPruebaController.cs" />
     <Compile Include="Controllers\VentaController.cs" />
     <Compile Include="Controllers\ViewBagController.cs" />
     <Compile Include="Controllers\ViewController.cs" />
@@ -157,10 +158,12 @@
     <Compile Include="Models\producto.cs" />
     <Compile Include="Models\programas.cs" />
     <Compile Include="Models\rol.cs" />
+    <Compile Include="Models\userPrueba.cs" />
     <Compile Include="Models\users.cs" />
     <Compile Include="Models\venta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\listarFilms.cs" />
+    <Compile Include="Services\listarPruebaUsuario.cs" />
     <Compile Include="Services\listarUser.cs" />
     <Compile Include="Services\listarUsuario.cs" />
     <Compile Include="Services\LogicaPersona.cs" />
@@ -175,7 +178,6 @@
     <Compile Include="Services\ObjetoCliente.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -236,6 +238,7 @@
     <Content Include="Views\PruebaDisplay\DisplayTemplates\Boolean.cshtml" />
     <Content Include="Views\PruebaDisplay\DisplayTemplates\DateTime.cshtml" />
     <Content Include="Views\PruebaDisplay\DisplayTemplates\Cliente.cshtml" />
+    <Content Include="Views\userPrueba\mostrarUsuario.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
