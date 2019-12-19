@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Action Enum";
+}
+
+<br />
+<br />
+<h2>@ViewBag.Title</h2>
+<br />
+<label>Estado Usuario:</label>
+@Html.DropDownList("Example Enum", (List<SelectListItem>)ViewBag.enumSelect)

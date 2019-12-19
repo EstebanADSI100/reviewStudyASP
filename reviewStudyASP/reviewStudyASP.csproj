@@ -126,6 +126,7 @@
     <Compile Include="Controllers\DropDownListController.cs" />
     <Compile Include="Controllers\EditorController.cs" />
     <Compile Include="Controllers\EmpresaController.cs" />
+    <Compile Include="Controllers\EnumController.cs" />
     <Compile Include="Controllers\exampleMethodsGetAndPostController.cs" />
     <Compile Include="Controllers\facturaController.cs" />
     <Compile Include="Controllers\FamilyController.cs" />
@@ -159,6 +160,7 @@
     <Compile Include="Models\Persona.cs" />
     <Compile Include="Models\producto.cs" />
     <Compile Include="Models\programas.cs" />
+    <Compile Include="Models\ResultadoOperacion.cs" />
     <Compile Include="Models\rol.cs" />
     <Compile Include="Models\userPrueba.cs" />
     <Compile Include="Models\users.cs" />
@@ -245,6 +247,7 @@
     <Content Include="Views\Editor\mostrarObjetoPersona.cshtml" />
     <Content Include="Views\Editor\EditorTemplates\DateTime.cshtml" />
     <Content Include="Views\DropDownList\drop.cshtml" />
+    <Content Include="Views\Enum\ActionEnum.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
