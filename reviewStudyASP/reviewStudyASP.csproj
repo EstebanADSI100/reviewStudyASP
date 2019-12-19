@@ -123,6 +123,8 @@
     <Compile Include="Controllers\codidoDentrodeRezorController.cs" />
     <Compile Include="Controllers\ContentController.cs" />
     <Compile Include="Controllers\DisplayController.cs" />
+    <Compile Include="Controllers\DropDownListController.cs" />
+    <Compile Include="Controllers\EditorController.cs" />
     <Compile Include="Controllers\EmpresaController.cs" />
     <Compile Include="Controllers\exampleMethodsGetAndPostController.cs" />
     <Compile Include="Controllers\facturaController.cs" />
@@ -175,6 +177,7 @@
     <Compile Include="Services\logicRol.cs" />
     <Compile Include="Services\logicUsers.cs" />
     <Compile Include="Services\logicVenta.cs" />
+    <Compile Include="Services\methodsEditorPersona.cs" />
     <Compile Include="Services\ObjetoCliente.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -239,6 +242,9 @@
     <Content Include="Views\PruebaDisplay\DisplayTemplates\DateTime.cshtml" />
     <Content Include="Views\PruebaDisplay\DisplayTemplates\Cliente.cshtml" />
     <Content Include="Views\userPrueba\mostrarUsuario.cshtml" />
+    <Content Include="Views\Editor\mostrarObjetoPersona.cshtml" />
+    <Content Include="Views\Editor\EditorTemplates\DateTime.cshtml" />
+    <Content Include="Views\DropDownList\drop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

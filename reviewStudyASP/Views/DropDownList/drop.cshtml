@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "DropDownList";
+}
+
+<br />
+<br />
+<br />
+<br />
+
+<h2>@ViewBag.Title</h2>
+<br />
+<br />
+<label>Seleccione el Estado:</label>
+@Html.DropDownList("Mi Estado", (List<SelectListItem>)ViewBag.estado)
