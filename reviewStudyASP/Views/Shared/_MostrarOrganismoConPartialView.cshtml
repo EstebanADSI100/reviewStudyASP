@@ -1,0 +1,23 @@
+﻿@model List<reviewStudyASP.Models.Organismo>
+
+<div>
+    <h3>Table Example PartialView</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.nombre.ToString()</td>
+                    <td>@item.edad.ToString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

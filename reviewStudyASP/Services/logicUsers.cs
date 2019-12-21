@@ -13,10 +13,10 @@ namespace reviewStudyASP.Services
             return new users()
             {
                 idUser = 1,
-                firstName = "Fanny",
+                firstName = "Javier",
                 secondName = "",
-                firstLast = "Díaz",
-                secondLast = "Gallego",
+                firstLast = "Mendez",
+                secondLast = "Garzón",
                 age = 54,
                 phone = "3134314281",
                 direction = "Calle 2 # 93D-30"
@@ -28,10 +28,10 @@ namespace reviewStudyASP.Services
             var user1 = new users()
             {
                 idUser = 1,
-                firstName = "Fanny",
+                firstName = "Luis",
                 secondName = "",
                 firstLast = "Díaz",
-                secondLast = "Gallego",
+                secondLast = "Marquéz",
                 age = 54,
                 phone = "1212121234",
                 direction = "Ciudad Bonita"
@@ -42,7 +42,7 @@ namespace reviewStudyASP.Services
                 idUser = 2,
                 firstName = "Juan",
                 secondName = "Carlos",
-                firstLast = "Valiente",
+                firstLast = "Marquez",
                 secondLast = "Díaz",
                 age = 30,
                 phone = "1112121212",
@@ -53,9 +53,9 @@ namespace reviewStudyASP.Services
             {
                 idUser = 3,
                 firstName = "John",
-                secondName = "Alejandro",
-                firstLast = "Valiente",
-                secondLast = "Díaz",
+                secondName = "Mariano",
+                firstLast = "Mendez",
+                secondLast = "Castro",
                 age = 28,
                 phone = "111111121",
                 direction = "Postobon"
@@ -76,9 +76,9 @@ namespace reviewStudyASP.Services
             var user5 = new users()
             {
                 idUser = 5,
-                firstName = "Lucila",
+                firstName = "Jose",
                 secondName = "",
-                firstLast = "Gallego",
+                firstLast = "León",
                 secondLast = "",
                 age = 84,
                 phone = "3125099362",
@@ -112,7 +112,7 @@ namespace reviewStudyASP.Services
             var user8 = new users()
             {
                 idUser = 8,
-                firstName = "Deyanita",
+                firstName = "Yulitza",
                 secondName = "",
                 firstLast = "Díaz",
                 secondLast = "Gallego",

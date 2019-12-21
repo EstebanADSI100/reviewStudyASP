@@ -1,0 +1,15 @@
+﻿@model reviewStudyASP.Models.Individuo
+@{
+    ViewBag.Title = "Mostrar Persona";
+}
+<br />
+<br />
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel();
+    <br/>
+    <input type="submit" value="Enviar Post"/>
+}
+
