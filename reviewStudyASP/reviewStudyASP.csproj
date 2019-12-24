@@ -45,6 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -145,6 +151,7 @@
     <Compile Include="Controllers\RedirectToActionController.cs" />
     <Compile Include="Controllers\RedirectToRouteController.cs" />
     <Compile Include="Controllers\RolController.cs" />
+    <Compile Include="Controllers\ScalffoldingController.cs" />
     <Compile Include="Controllers\userPruebaController.cs" />
     <Compile Include="Controllers\VentaController.cs" />
     <Compile Include="Controllers\ViewBagController.cs" />
@@ -161,10 +168,12 @@
     <Compile Include="Models\Individuo.cs" />
     <Compile Include="Models\loginUser.cs" />
     <Compile Include="Models\Organismo.cs" />
+    <Compile Include="Models\Pelicula.cs" />
     <Compile Include="Models\Persona.cs" />
     <Compile Include="Models\producto.cs" />
     <Compile Include="Models\programas.cs" />
     <Compile Include="Models\ResultadoOperacion.cs" />
+    <Compile Include="Models\reviewStudyASPContext.cs" />
     <Compile Include="Models\rol.cs" />
     <Compile Include="Models\userPrueba.cs" />
     <Compile Include="Models\users.cs" />
@@ -256,6 +265,11 @@
     <Content Include="Views\BeginForm\mostrarPersona.cshtml" />
     <Content Include="Views\PartialViews\mostrarOrganismo.cshtml" />
     <Content Include="Views\Shared\_MostrarOrganismoConPartialView.cshtml" />
+    <Content Include="Views\Scalffolding\Delete.cshtml" />
+    <Content Include="Views\Scalffolding\Details.cshtml" />
+    <Content Include="Views\Scalffolding\Edit.cshtml" />
+    <Content Include="Views\Scalffolding\Index.cshtml" />
+    <Content Include="Views\Scalffolding\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -90,6 +90,8 @@ C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\roslyn\vbc.rsp
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\roslyn\VBCSCompiler.exe
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\Antlr3.Runtime.dll
+C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\EntityFramework.dll
+C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\EntityFramework.SqlServer.dll
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\Newtonsoft.Json.dll
@@ -101,6 +103,8 @@ C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\System.Web.WebPages.D
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\System.Web.WebPages.dll
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\System.Web.WebPages.Razor.dll
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\WebGrease.dll
+C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\EntityFramework.xml
+C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\EntityFramework.SqlServer.xml
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\System.Web.Helpers.xml
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\System.Web.Mvc.xml
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\System.Web.Optimization.xml
@@ -121,3 +125,4 @@ C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\es\System.Web.WebPage
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.csproj.CopyComplete
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.dll
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.pdb
+C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.csprojAssemblyReference.cache
