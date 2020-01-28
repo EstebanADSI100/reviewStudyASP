@@ -20,5 +20,7 @@ namespace reviewStudyASP.Models
         }
 
         public System.Data.Entity.DbSet<reviewStudyASP.Models.Pelicula> Peliculas { get; set; }
+
+        public System.Data.Entity.DbSet<reviewStudyASP.Models.Usuario> Usuarios { get; set; }
     }
 }

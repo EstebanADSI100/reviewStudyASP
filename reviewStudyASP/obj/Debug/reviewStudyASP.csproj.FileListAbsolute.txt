@@ -125,4 +125,6 @@ C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\bin\es\System.Web.WebPage
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.csproj.CopyComplete
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.dll
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.pdb
-C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.csprojAssemblyReference.cache
+C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.Migrations.InitialCreate.resources
+C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.csproj.GenerateResource.cache
+C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.Migrations.Initial.resources

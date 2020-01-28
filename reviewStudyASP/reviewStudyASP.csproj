@@ -153,6 +153,7 @@
     <Compile Include="Controllers\RolController.cs" />
     <Compile Include="Controllers\ScalffoldingController.cs" />
     <Compile Include="Controllers\userPruebaController.cs" />
+    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\VentaController.cs" />
     <Compile Include="Controllers\ViewBagController.cs" />
     <Compile Include="Controllers\ViewController.cs" />
@@ -160,6 +161,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912241901118_InitialCreate.cs" />
+    <Compile Include="Migrations\201912241901118_InitialCreate.Designer.cs">
+      <DependentUpon>201912241901118_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001280021192_Initial.cs" />
+    <Compile Include="Migrations\202001280021192_Initial.Designer.cs">
+      <DependentUpon>202001280021192_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\empresa.cs" />
     <Compile Include="Models\factura.cs" />
@@ -177,6 +187,7 @@
     <Compile Include="Models\rol.cs" />
     <Compile Include="Models\userPrueba.cs" />
     <Compile Include="Models\users.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Models\venta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\IterarOrganismo.cs" />
@@ -270,6 +281,11 @@
     <Content Include="Views\Scalffolding\Edit.cshtml" />
     <Content Include="Views\Scalffolding\Index.cshtml" />
     <Content Include="Views\Scalffolding\Create.cshtml" />
+    <Content Include="Views\Usuarios\Create.cshtml" />
+    <Content Include="Views\Usuarios\Delete.cshtml" />
+    <Content Include="Views\Usuarios\Details.cshtml" />
+    <Content Include="Views\Usuarios\Edit.cshtml" />
+    <Content Include="Views\Usuarios\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -287,6 +303,14 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201912241901118_InitialCreate.resx">
+      <DependentUpon>201912241901118_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001280021192_Initial.resx">
+      <DependentUpon>202001280021192_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
