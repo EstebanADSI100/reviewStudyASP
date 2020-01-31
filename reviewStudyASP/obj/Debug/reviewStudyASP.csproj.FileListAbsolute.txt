@@ -128,3 +128,4 @@ C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.Migrations.InitialCreate.resources
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.csproj.GenerateResource.cache
 C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.Migrations.Initial.resources
+C:\Users\esteb\Documents\reviewStudyASP\reviewStudyASP\obj\Debug\reviewStudyASP.csprojAssemblyReference.cache

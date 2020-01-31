@@ -10,7 +10,6 @@ namespace reviewStudyASP.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "reviewStudyASP.Models.reviewStudyASPContext";
         }
 
         protected override void Seed(reviewStudyASP.Models.reviewStudyASPContext context)
